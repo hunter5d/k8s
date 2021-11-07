@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: my-alpine
-  namespace: default
+  namespace: argocd
 spec:
   containers:
   - name: alpine
