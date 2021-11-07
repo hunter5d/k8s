@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-alpine
+spec:
+  containers:
+  - name: app-alpine
+    image: alpine
+    command:
+    - sleep
+    - 3600
